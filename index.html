@@ -1,1 +1,17 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,uesr-scalable=yes"><title>byj-resume</title><link rel=stylesheet href=//at.alicdn.com/t/font_719105_latchue0pf.css><link rel=stylesheet href=src/common/css/reset.styl><link href=./static/css/app.cc49f097c676f24f300bed9c3833dad6.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.3ad1d5771e9b13dbdad2.js></script><script type=text/javascript src=./static/js/vendor.7fed9fa7b7ba482410b7.js></script><script type=text/javascript src=./static/js/app.191949eb07a3fddd2d52.js></script></body></html>
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,uesr-scalable=yes"><title>byj-resume</title><link rel=stylesheet href=//at.alicdn.com/t/font_719105_latchue0pf.css><link rel=stylesheet href=src/common/css/reset.styl><script>(function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    if(clientWidth>=640){
+                        docEl.style.fontSize = '100px';
+                    }else{
+                        docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                    }
+                };
+    
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);</script><link href=./static/css/app.c5f03764264c630ad5f09adb39fb4fc4.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.3ad1d5771e9b13dbdad2.js></script><script type=text/javascript src=./static/js/vendor.7fed9fa7b7ba482410b7.js></script><script type=text/javascript src=./static/js/app.b7cbcdef164cfcfb4121.js></script></body></html>
